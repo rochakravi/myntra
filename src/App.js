@@ -3,11 +3,13 @@ import './App.css';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import LoginSigUp from './components/LoginSignUp';
+import Male from './components/Male';
 
 function App() {
   return (
     <div className="App">
       <Header />
+      <Male />
       <LoginSigUp />
       <div className="App-container">
         <div className="Section-box">
