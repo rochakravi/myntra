@@ -33,7 +33,46 @@
   margin: 0;
   padding:0;
 }
+.Login-SignUp{
+/*border: 1px solid red;
+/* width: 250px; */
+width: auto;
+background-color:#ffff;
+margin: 0 500px;
+min-height: 250px;
+position: relative;
+padding : 0 0 20px 0;
 
+}
+
+.Login-SignUp button{
+  width:220px;
+  padding:6px;
+  background:#ff3f6c; 
+  color : #fff ;
+  font-size : 24px ;
+   font-weight : bold;
+}
+
+.Login-SignUp input{
+  width:162px;
+  padding : 8px;
+  border : none;
+}
+input:focus, textarea:focus, select:focus{
+  outline: none;
+}
+.Login-SignUp span{
+  color:#ff3f6c; 
+  position : absolute;
+  padding : 0px 10px;
+  top:167px;
+  left : 41px;
+}
+.Text-Input{
+  border :1px solid #ff3f6c;
+  margin: 15px 44px;
+}
 .App-header li{
   padding: 15px;
 }
@@ -43,6 +82,11 @@
   justify-content: space-around;
   background-color: #f5f1f1c2;
   height : 90%;
+}
+.img-Content{
+  min-height: 100px;
+  background-color: #fae6f2;
+  margin:0px;
 }
 .Section-box{
   display: flex;
