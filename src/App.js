@@ -1,12 +1,20 @@
 import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header';
-import Footer from './components/Footer'
+import Footer from './components/Footer';
+import LoginSigUp from './components/LoginSignUp';
+import Male from './components/Male';
+import Female from './components/Female';
+import Kids from './components/Kids';
 
 function App() {
   return (
     <div className="App">
       <Header />
+      <Male />
+      <Female />
+      <Kids />
+      <LoginSigUp />
       <div className="App-container">
         <div className="Section-box">
           Mobiles
