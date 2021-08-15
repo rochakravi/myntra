@@ -6,15 +6,25 @@ import LoginSigUp from './components/LoginSignUp';
 import Male from './components/Male';
 import Female from './components/Female';
 import Kids from './components/Kids';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Male />
-      <Female />
-      <Kids />
-      <LoginSigUp />
+      <Router>
+        <switch>
+          <Route path = '/'><Header /></Route>
+          <Route path = '/male'> <Male /></Route>
+          <Route path = '/female'><Female /></Route>
+          <Route path = '/kids'><Kids /></Route>
+          <Route path = '/loginsignup'><LoginSigUp /></Route>
+      </switch>
+      </Router>
       <div className="App-container">
         <div className="Section-box">
           Mobiles
