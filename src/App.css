@@ -110,3 +110,9 @@ input:focus, textarea:focus, select:focus{
     transform: rotate(360deg);
   }
 }
+
+.footer-section{
+  border : 1px  dotted blue;
+  display: flex;
+  justify-content: space-evenly;
+}
