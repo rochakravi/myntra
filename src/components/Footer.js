@@ -1,8 +1,11 @@
-const Footer = () => {
-    return <div>
-        <span>Author</span>
-        <span>Email</span>
-        <span>Phone</span>
+import '../App.css';
+
+
+const Footer = (props) => {
+    console.log('footer => ',props)
+    return <div className="footer-section">
+        <span>{props.address}</span>
+        <span>{props.mobile}</span>
     </div>
 }
 
