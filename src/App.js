@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import Header from './components/Header';
+import Header from './components/header/Header';
 import Footer from './components/Footer';
 import LoginSigUp from './components/LoginSignUp';
 import Male from './components/Male';
@@ -19,12 +19,15 @@ function App() {
     <div className="App">
       <Router>
       <Header money="10" gift="shirt" festival="new year"/>
-        <switch>         
+        <switch>  
+          <div className="content-surface">
           <Route path = '/male'> <Male /></Route>
           <Route path = '/female'><Female /></Route>
           <Route path = '/kids'><Kids /></Route>
           <Route path = '/loginsignup'><LoginSigUp /></Route>
           <Route path = '/tutorial'><Tutorial /></Route>
+            </div>       
+          
       </switch>
       </Router>
       <div className="App-container">
