@@ -21,7 +21,7 @@ function App() {
       <Header money="10" gift="shirt" festival="new year"/>
         <Switch>  
           <div className="content-surface">
-          <Route path = '/male'> <Male /></Route>
+          <Route exact path = '/'> <Male /></Route>
           <Route path = '/female'><Female /></Route>
           <Route path = '/kids'><Kids /></Route>
           <Route path = '/loginsignup'><LoginSigUp /></Route>
@@ -30,26 +30,7 @@ function App() {
           
       </Switch>
       </Router>
-      {/* <div className="App-container">
-        <div className="Section-box">
-          Mobiles
-        </div>
-        <div className="Section-box">
-          Home Dec
-        </div>
-        <div className="Section-box">
-          3rd
-        </div>
-        <div className="Section-box">
-          4th
-        </div>
-        <div className="Section-box">
-          5th
-        </div>
-        <div className="Section-box">
-          6th
-        </div>
-      </div> */}
+    
       <Footer address="Mumbai" mobile="9910568242" />
     </div>
   );
