@@ -13,7 +13,8 @@ const Header = (props) => {
     return <ul className="app-header">
         <div className="header-box">
             <div className="left-box">
-                <img src={window.location.origin + '/logo.png'} style={{ width: 50 }} />
+                {/* <img src={window.location.origin + '/logo.png'} style={{ width: 50 }} /> */}
+                <img src='/logo.png' style={{ width: 50 }} />
                 <li><Link to="/">MEN</Link></li>
                 <li><Link to="/male">WOMEN</Link></li>
                 <li><Link to="/female">KIDS</Link></li>

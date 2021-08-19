@@ -19,16 +19,15 @@ function App() {
     <div className="App">
       <Router>
       <Header money="10" gift="shirt" festival="new year"/>
-        <Switch>  
-          <div className="content-surface">
-          <Route exact path = '/'> <Male /></Route>
+      <div>
+        <Switch>
+        <Route exact path = '/'> <Male /></Route>
           <Route path = '/female'><Female /></Route>
           <Route path = '/kids'><Kids /></Route>
           <Route path = '/loginsignup'><LoginSigUp /></Route>
           <Route path = '/tutorial'><Tutorial /></Route>
-            </div>       
-          
-      </Switch>
+        </Switch>
+      </div>
       </Router>
     
       <Footer address="Mumbai" mobile="9910568242" />
