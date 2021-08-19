@@ -7,6 +7,7 @@ import Male from './components/Male';
 import Female from './components/Female';
 import Kids from './components/Kids';
 import Tutorial  from './components/Tutorial';
+import Profile from './components/profile/Profile';
 import {
   BrowserRouter as Router,
   Switch,
@@ -26,6 +27,7 @@ function App() {
           <Route path = '/kids'><Kids /></Route>
           <Route path = '/loginsignup'><LoginSigUp /></Route>
           <Route path = '/tutorial'><Tutorial /></Route>
+          <Route path = '/profile'><Profile /></Route>
         </Switch>
       </div>
       </Router>

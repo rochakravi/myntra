@@ -27,7 +27,7 @@ const Header = (props) => {
                 <Input loading icon='search' iconPosition='left' placeholder='Search for Products brands and more' />
                 </div>
                 <div className="second">
-                <AiOutlineUser size="30" />
+                <Link to="/profile"><AiOutlineUser size="30"  /></Link>
                 <AiOutlineHeart size="30"/>
                 <AiOutlineShopping size="30"/>
                 </div>
