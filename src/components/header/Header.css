@@ -12,7 +12,7 @@ a {
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
-    color: #000;
+    color: black !important;    
     letter-spacing: .3px;
     font-family: system-ui;
 }
@@ -26,7 +26,7 @@ a {
 .left-box {
     flex: 1;
     display: flex;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     justify-content: space-around;
     align-items: center;
 }
@@ -34,19 +34,19 @@ a {
 .right-box {
     flex: 1;
     display: flex;
-    border: 1px solid green;
+    /* border: 1px solid green; */
 }
 
 .first {
     flex: 2;
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
 }
 
 .second {
     flex: 1;
     display: flex;
     justify-content: space-evenly;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     align-items: center;
 }
 
@@ -71,4 +71,5 @@ a {
 
 .content-surface {
     background-color: #e8e4e5;
+    height: 300vh;
 }

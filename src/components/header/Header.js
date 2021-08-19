@@ -1,9 +1,7 @@
 
 import './Header.css';
 import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
+   
     Link
 } from "react-router-dom";
 import { Input } from 'semantic-ui-react'
@@ -28,9 +26,9 @@ const Header = (props) => {
                 <Input loading icon='search' iconPosition='left' placeholder='Search for Products brands and more' />
                 </div>
                 <div className="second">
-                <AiOutlineUser />
-                <AiOutlineHeart />
-                <AiOutlineShopping />
+                <AiOutlineUser size="30" />
+                <AiOutlineHeart size="30"/>
+                <AiOutlineShopping size="30"/>
                 </div>
             
                

@@ -19,7 +19,7 @@ function App() {
     <div className="App">
       <Router>
       <Header money="10" gift="shirt" festival="new year"/>
-        <switch>  
+        <Switch>  
           <div className="content-surface">
           <Route path = '/male'> <Male /></Route>
           <Route path = '/female'><Female /></Route>
@@ -28,9 +28,9 @@ function App() {
           <Route path = '/tutorial'><Tutorial /></Route>
             </div>       
           
-      </switch>
+      </Switch>
       </Router>
-      <div className="App-container">
+      {/* <div className="App-container">
         <div className="Section-box">
           Mobiles
         </div>
@@ -49,7 +49,7 @@ function App() {
         <div className="Section-box">
           6th
         </div>
-      </div>
+      </div> */}
       <Footer address="Mumbai" mobile="9910568242" />
     </div>
   );
